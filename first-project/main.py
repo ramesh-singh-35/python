@@ -1,13 +1,15 @@
+def main():
+    hello()
+    name = input("What is your name? ")
+    hello(name)
+
+
 def hello(to="world"):
     print("hello,", to)
 
 
-hello()
-# Ask user their name
-name = input("What is your name? ")
+main()
 
-# Say Hello to user
-# print("Hello,", name)
-hello(name)
+
 
 
