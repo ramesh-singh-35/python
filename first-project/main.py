@@ -1,5 +1,5 @@
-def hello():
-    print("hello")
+def hello(to):
+    print("hello,", to)
 
 
 # Ask user their name
@@ -7,7 +7,6 @@ name = input("What is your name? ")
 
 # Say Hello to user
 # print("Hello,", name)
-hello()
-print(f"{name}")
+hello(name)
 
 
